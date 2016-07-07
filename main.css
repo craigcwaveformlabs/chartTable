@@ -1,0 +1,32 @@
+* {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 12px;
+}
+
+.seperator {
+  background: #EEEEED;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+#filter {
+  width: 100%;
+  font-size: 27px;
+}
+
+td > a:link {
+  color: #0077C4;
+  /*font-weight: bold;*/
+  text-decoration: none;
+}
+/*#table_length {
+  display: none;
+}
+
+.dataTables_filter {
+  display: none;
+}
+
+#table_paginate {
+  display: none;
+}*/

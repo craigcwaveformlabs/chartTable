@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Highcharts + Datatables</title>
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+    <div id="chart"></div>
+
+    <div class="seperator">
+      <input id="filter" placeholder="" autofocus>
+    </div>
+
+    <button id="addJSON" type="button" name="button">Add to JSON</button>
+    <button id="deleteJSON" type="button" name="button">Remove from JSON</button>
+    <button id="deleteRow" type="button" name="button">Delete Row</button>
+
+    <table id="table"></table>
+
+
+
+
+
+
+
+
+
+    <script src="//code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="//code.highcharts.com/highcharts.js"></script>
+    <script src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+    <script src="//underscorejs.org/underscore-min.js"></script>
+
+    <!-- main.js - attempt to update. DOESNT WORK YET -->
+    <script src="/main.js"></script>
+
+    <!-- app.js - original, all in one section version. THIS DOES WORK -->
+    <!-- <script src="/app.js"></script> -->
+
+  </body>
+</html>
