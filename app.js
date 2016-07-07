@@ -3,7 +3,7 @@
 $(document).ready(function () {
 
     "use strict";
-    
+
     var escape = function(s) {
         return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
     };
@@ -80,7 +80,7 @@ $(document).ready(function () {
             balance   = revenue.RollingBalance(cost, sBalance),
             chart     = new Highcharts.Chart({ chart:   { renderTo: "chart", zoomType: 'xy'},
                                                credits: { enabled: false },
-                                               title:   { text: "Cashflow Management" },
+                                               title:   { text: "Charts and Tables" },
                                                xAxis:   { type: "datetime" },
                                                yAxis:   [
                                                  { //Primary Axis
